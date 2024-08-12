@@ -295,9 +295,7 @@ To update your blog project with SEO content and complete the blog implementatio
            {post.amazon.map((url, index) => (
              <a key={index} href={url} target="_blank" rel="noopener noreferrer">Amazon</a>
            ))}
-           {post.flipkart.map((url, index)
-
- => (
+           {post.flipkart.map((url, index) => (
              <a key={index} href={url} target="_blank" rel="noopener noreferrer">Flipkart</a>
            ))}
          </div>
